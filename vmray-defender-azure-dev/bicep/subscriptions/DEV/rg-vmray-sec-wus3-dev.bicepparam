@@ -1,0 +1,11 @@
+using './rg-vmray-sec-wus3-dev.bicep'
+
+param location = 'westus3'
+param environment = 'dev'
+param resourceGroupName = 'rg-vmray-sec-westus3-dev'
+param functionAppName = 'func-vmray-defender-dev'
+param storageAccountName = 'stvmraydefenderdev'
+param appServicePlanName = 'asp-vmray-defender-dev'
+param appInsightsName = 'appi-vmray-defender-dev'
+param logAnalyticsName = 'log-vmray-defender-dev'
+param keyVaultName = 'kv-vmray-defender-dev'
